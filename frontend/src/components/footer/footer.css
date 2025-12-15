@@ -1,0 +1,17 @@
+@media (max-width: 1050px) {
+.footersocialicon .bcd{
+height: 40px;
+width: 40px;
+}
+.footercontentleft .def{
+    height: 70%;
+    width: 70px;
+    position: relative;
+    left: 40%;
+}
+
+ul li{
+    text-align: left
+}
+
+}

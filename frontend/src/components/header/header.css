@@ -1,0 +1,91 @@
+.header {
+    margin: 30px auto;
+    background: url('shushi.jpg')  no-repeat;
+    background-size: 80vw 80vh; 
+    position: relative;
+    background-position: center;
+    border-radius: 20px;
+     height: 65vh;
+
+     
+}
+.qwerty{
+  text-wrap: nowrap;
+}
+.header button:hover {
+  background-color:#ef4444;
+  color:  white;
+  transition: 0.5s;
+
+}
+.header button{
+      position: relative;
+  right : 200px;
+  margin: auto;
+  bottom:  200px;   
+  font-size: larger ;
+
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+@media (max-width: 1050px) {
+  .header {
+    height: 55vh;
+    background-size: contain !important;   /* FIXED */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    position: relative;
+    bottom: 100px ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+  }
+  .qwerty{
+    position: fixed;
+    padding-bottom: 30px;
+
+    
+  }
+
+  .header-content {
+    max-width: 80% !important;
+    bottom: 5% !important;
+    left: 4vw !important;
+  }
+
+  .header h1 {
+    font-size: 2.1rem !important;
+    bottom: 100px !important;
+    padding-left: 10px !important;
+    position: relative;
+   top: -46px;
+  }
+
+  .header p {
+    font-size: 1.2rem !important;
+    width: 90% !important;
+    bottom: 40px !important;
+    left: 25px !important;
+    padding: 6px 10px !important;
+        position: relative;
+    top: -8px;
+  }
+
+  .header button {
+           right: 0 !important;
+        bottom: 20px !important;
+        width: 150px !important;
+        height: 45px !important;
+        font-size: 1rem !important;
+        position: relative;
+        top: 12px;
+        left: 5px;
+  }
+}

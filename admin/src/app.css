@@ -1,0 +1,47 @@
+/* 📱 iPhone 12 Pro Max (width ≤ 428px) */
+@media only screen and (max-width: 800px) {
+
+  /* Sidebar becomes horizontal top bar */
+  .sidebar {
+    width: 100% !important;
+    height: auto !important;
+    border-left: none !important;
+    border-bottom: 2px solid black !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  .sidebaroption {
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  .sidebaroptions {
+    padding: 10px 0 !important;
+    flex-direction: column !important;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .sidebaroptions img {
+    width: 22px;
+    height: 22px;
+  }
+
+  /* Main App Content */
+  .appcontent {
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  /* Pages width */
+  .add,
+  .list {
+    width: 95% !important;
+    margin: 0 auto;
+  }
+}

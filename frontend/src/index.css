@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+ html, body {
+    overflow-x: hidden;   /* Disable horizontal scroll */
+  }
+.app {
+  width: 80%;
+  margin: auto;
+}
+* {
+  font-family: monospace;
+  
+  margin: 0;
+ 
+}
+@media (max-width: 1050px) {
+  html, body {
+    overflow-x: hidden;   /* Disable horizontal scroll */
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center all content horizontally */
+    text-align: center;   /* Optional: center text */
+  }
+
+  .main-container {
+    width: 95%;           /* Reduce width on smaller screens */
+    margin: 0 auto;
+  }
+}
+

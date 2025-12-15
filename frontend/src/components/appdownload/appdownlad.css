@@ -1,0 +1,25 @@
+@media (max-width: 1050px) {
+.appdownloadplatoform{
+    position: relative;
+    left: 0;
+    
+    
+}
+.one{
+position: relative;
+right: 405px;
+}
+.two{
+    position: relative;
+    right: 400px;
+}
+
+}
+.one{
+    position: relative;
+    right: 60px;
+}
+.two{
+    position: relative;
+    right: 45px;
+}

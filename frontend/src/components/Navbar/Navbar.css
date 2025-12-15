@@ -1,0 +1,65 @@
+.navbar {
+  padding: 5px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar button:hover {
+  background-color: #ef4444;
+  color: white;
+  transition: 0.5s;
+}
+.navbar .active {
+  padding: 2px;
+  border-bottom: 2px solid #ef4444;
+}
+.navbar li {
+  cursor: pointer;
+}
+.dub {
+  position: relative;
+}
+.dub .dot {
+  position: absolute;
+  min-width: 10px;
+  min-height: 10px;
+  background-color: #ef4444;
+  border-radius: 5px;
+  top: -7px;
+  right: -31px;
+}
+
+ul li{
+ font-size: 20px;
+}
+@media (max-width: 1050px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar-menu {
+    left: 0;
+    gap: 15px;
+    justify-content: center;
+  }
+  .navabrprofilee{
+    position: relative;
+    bottom: 200px;
+    left: 160px;
+  }
+
+  .navbarright {
+    gap: 20px;
+    left: 0 !important;
+  }
+
+  button {
+    right: 0 !important;
+    margin-top: 10px;
+  }
+  .signin{
+  position: relative;
+  bottom: 0px;
+}
+
+}

@@ -1,0 +1,16 @@
+.loginpopupcontainer{
+    place-self: center;
+    width: max(23vw,330px);
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s;
+}
+.Login-popup{
+    background-color: #00000090;
+}
