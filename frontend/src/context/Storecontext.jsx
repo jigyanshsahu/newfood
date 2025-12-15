@@ -17,7 +17,7 @@ const StoreContextProvider = (props) => {
 
   // Fetch food list from API
   useEffect(() => {
-    const fetchFoodList = async () => {
+    const fetchfoodList = async () => {
       try {
         const response = await axios.get(`${url}/api/food/list`);
         setfood_list(response.data.data);
@@ -25,7 +25,7 @@ const StoreContextProvider = (props) => {
         console.error("Failed to fetch food list:", error);
       }
     };
-    fetchFoodList();
+    fetchfoodList();
   }, []); // Run once on mount
 
   // Add item to cart

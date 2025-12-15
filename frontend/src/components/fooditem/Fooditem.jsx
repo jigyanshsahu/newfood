@@ -2,7 +2,7 @@
       import { assets } from '../../assets/assets'
       import './fooditem.css'
   import { StoreContext } from '../../context/Storecontext'
-      const Fooditem = ({id,name,price,description,Image}) => {
+      const fooditem = ({id,name,price,description,Image}) => {
       
         const{ cartitem,addtocart,removefromcart } = useContext(StoreContext);
         return (
@@ -47,5 +47,5 @@
         )
       }
       
-      export default Fooditem
+      export default fooditem
       

@@ -1,10 +1,10 @@
 import { log } from "console";
-import foodModel from "../models/FoodModel.js";
+import foodModel from "../models/foodModel.js";
 
     import fs from 'fs'
 
     //add food item 
- const addFood = async (req, res) => {
+ const addfood = async (req, res) => {
   try {
     if (!req.file) {
       return res.json({ success: false, message: "Image is required" });
@@ -21,7 +21,7 @@ import foodModel from "../models/FoodModel.js";
 
     await food.save();
 
-    res.json({ success: true, message: "Food added" });
+    res.json({ success: true, message: "food added" });
 
   } catch (error) {
     console.log(error);
@@ -57,4 +57,4 @@ try {
   }
 
 
-     export {addFood,listfood,removefood}
+     export {addfood,listfood,removefood}

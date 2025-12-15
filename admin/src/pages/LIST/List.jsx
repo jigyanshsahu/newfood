@@ -32,7 +32,7 @@ const List = ({url}) => {
   <div className="list add flex-col p-6">
 
     <h2 className="text-3xl font-semibold mb-8 tracking-wide text-center">
-      All Food Items
+      All food Items
     </h2>
 
     <div className="listtable w-full bg-white shadow-lg rounded-xl overflow-hidden">

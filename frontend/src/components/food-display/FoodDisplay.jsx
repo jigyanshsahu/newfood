@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import './fooddisplay.css';
 import { StoreContext } from '../../context/Storecontext';
-import Fooditem from '../fooditem/Fooditem';
+import fooditem from '../fooditem/fooditem';
 
-const FoodDisplay = ({ category }) => {
+const foodDisplay = ({ category }) => {
   const { food_list, url } = useContext(StoreContext);
 
   return (
@@ -12,7 +12,7 @@ const FoodDisplay = ({ category }) => {
 
       <div className="food-display-list">
         {food_list.map((item) => (
-          <Fooditem
+          <fooditem
             key={item._id}
             id={item._id}  
             name={item.name}
@@ -26,4 +26,4 @@ const FoodDisplay = ({ category }) => {
   );
 };
 
-export default FoodDisplay;
+export default foodDisplay;

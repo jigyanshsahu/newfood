@@ -83,7 +83,7 @@ const Myorders = () => {
           <div className="flex items-center gap-2 w-1/5">
             <span className="w-3 h-3 bg-red-500 rounded-full"></span>
             <p className="text-gray-700 font-medium">
-              {order.status || "Food Processing"}
+              {order.status || "food Processing"}
             </p>
           </div>
 
