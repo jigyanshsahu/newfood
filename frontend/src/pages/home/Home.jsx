@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import './home.css'
+import "./Home.css";
+
 import Header from '../../components/header/Header'
 import Exploremenu from '../../components/ExploreMenu/Exploremenu'
 import foodDisplay from '../../components/food-display/foodDisplay'
 import Appdownload from '../../components/appdownload/Appdownload'
-const home = () => {
+const Home = () => {
   const [category, setCategory] = useState("ALL")
   return (
     <div>
@@ -16,4 +17,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

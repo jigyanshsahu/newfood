@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/home/Home';
+import Home from './pages/Home/Home.jsx';
 import Cart from './pages/cart/Cart';
-import Placeorder from './pages/placeorder/Placeorder';
+import Placeorder from './pages/Placeorder/Placeorder.jsx';
 import Footer from "./components/Footer/Footer";
 
 import Loginpopup from './components/Loginpopup/Loginpopup';
