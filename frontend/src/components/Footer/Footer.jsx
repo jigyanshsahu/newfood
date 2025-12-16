@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="footercontentcenter  flex flex-col items-start gap-5     ">
         <h2 className='text-4xl'>COMPANY</h2>
         <ul className='list-disc list-inside cursor-pointer  text-[#a4a3a3]'>
-        <li>HOME</li>
+        <li>Home</li>
         <li>ABOUT US</li>
         <li>DELIVERY</li>
         <li>PRIVACY POLICY</li>

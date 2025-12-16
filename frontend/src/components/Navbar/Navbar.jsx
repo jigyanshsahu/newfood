@@ -5,7 +5,7 @@ import "./navbar.css";
 import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = ({ setShowlogin }) => {
-  const [menu, setmenu] = useState("home");
+  const [menu, setmenu] = useState("Home");
   const navigate = useNavigate();
   const { token, settoken } = useContext(StoreContext);
 
@@ -32,8 +32,8 @@ const Navbar = ({ setShowlogin }) => {
 
       <ul className="navbar-menu flex list-none gap-5 text-gray-500">
         <li
-          onClick={() => setmenu("home")}
-          className={menu === "home" ? "active" : ""}
+          onClick={() => setmenu("Home")}
+          className={menu === "Home" ? "active" : ""}
         >
           Home
         </li>

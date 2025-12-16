@@ -166,7 +166,7 @@ _id:  "9",
 name:"Sausage casserole",
 Image: food9,
 price: 34,
-description: "Hearty sausages simmered in a rich, comforting gravy with vegetables for a warm, homestyle casserole."
+description: "Hearty sausages simmered in a rich, comforting gravy with vegetables for a warm, Homestyle casserole."
 },
 {
 _id:  "10",
